@@ -1,0 +1,32 @@
+---
+import Nav from "../components/Nav.astro";
+import "../styles/global.css";
+---
+
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="./assets/github-alt.svg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etoile goussainville</title>
+  </head>
+  <body>
+    <Nav />
+    <main class="content">
+      <slot />
+    </main>
+    <footer class="footer">je suis le footer</footer>
+    <script>
+      const navElements = document.getElementsByClassName("navlink");
+      const navElsNb = navElements.length;
+      for (let i = 0; i < navElsNb; i++) {
+        if (navElements[i].href == location.href) {
+          navElements[i].classList.add("active");
+        } else {
+          navElements[i].classList.remove("active");
+        }
+      }
+    </script>
+  </body>
+</html>

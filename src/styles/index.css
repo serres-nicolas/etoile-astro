@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  gap: calc(20px + 1.5625vw);
+}
+.home_txt {
+  display: flex;
+  flex-direction: column;
+}
+.home_logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+}
+.title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3em;
+  font-size: calc(14px + 0.390625vw);
+  color: #689689;
+}
+.text {
+  color: #ffffff;
+  font-size: calc(15px + 0.390625vw);
+  font-family: "Open Sans";
+  letter-spacing: 0.1em;
+}
+.textpad {
+  margin-bottom: calc(10px + 1.5625vw);
+  margin-top: calc(10px + 1.5625vw);
+}

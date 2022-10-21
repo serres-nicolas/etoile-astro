@@ -1,0 +1,28 @@
+---
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
+import "../styles/Nav.css";
+console.log("mon chemin est ", currentPath);
+---
+
+<header class="header">
+  <nav>
+    <ul class="mobile_nav">
+      <li class="mobile_nav_li">
+        <a class="navlink" href="/">Accueil</a>
+      </li>
+      <li class="mobile_nav_li">
+        <a class="navlink" href="/alternance">Le Club</a>
+      </li>
+      <li>
+        <a class="navlink" href="/curriculumvitae">Activité</a>
+      </li>
+      <li>
+        <a class="navlink" href="/projet">Resultats compétitions</a>
+      </li>
+      <li>
+        <a class="navlink" href="/veille_old">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
