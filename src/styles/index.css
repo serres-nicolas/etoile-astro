@@ -22,11 +22,16 @@
 }
 .text {
   color: #ffffff;
-  font-size: calc(15px + 0.390625vw);
-  font-family: "Open Sans";
-  letter-spacing: 0.1em;
+  font-size: calc(18px + 0.390625vw);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.13em;
+  font-weight: 100;
+  margin-top: 2em;
 }
 .textpad {
   margin-bottom: calc(10px + 1.5625vw);
   margin-top: calc(10px + 1.5625vw);
+}
+p {
+  line-height: 1.4em;
 }
