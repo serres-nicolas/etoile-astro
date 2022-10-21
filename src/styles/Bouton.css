@@ -1,6 +1,7 @@
 .boxdl .dl {
+  letter-spacing: 0.1em;
   font-size: 25px;
-  font-weight: bold;
+
   color: #aa5042;
   text-decoration: none;
   display: flex;
@@ -14,8 +15,10 @@
   align-content: center;
   align-items: center;
   margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 .boxdl .dl:hover {
+  letter-spacing: 0.1em;
   font-size: 25px;
   font-weight: bold;
   color: #aa5042;
@@ -32,4 +35,5 @@
   align-items: center;
   margin-top: 50px;
   transition: 0.5s;
+  font-family: "Open Sans";
 }
