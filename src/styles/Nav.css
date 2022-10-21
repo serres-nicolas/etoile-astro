@@ -26,11 +26,6 @@
   color: #f4e8c1;
 }
 
-.header > nav > ul > li > a:hover {
-  background: white;
-  transition: 0.5s;
-}
-
 .header > nav > ul > li > .active {
   color: #689689;
 }
