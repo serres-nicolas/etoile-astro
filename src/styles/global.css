@@ -95,12 +95,3 @@ h1 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
-.content {
-  margin-top: 12rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}

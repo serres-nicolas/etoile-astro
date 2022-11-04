@@ -1,0 +1,43 @@
+---
+// Component Imports
+import Layout from "../layouts/default.astro";
+import "../styles/Contact.css";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout>
+  <main class="content_contact">
+    <div class="title">
+      <h1>Nous contacter</h1>
+    </div>
+    <div class="hero_contact">
+      <div class="rowcontact">
+        <div class="circle">
+          <img src="/assets/tel.svg" alt="phonelogo" class="contactsvg" />
+        </div>
+        <p class="textcontact">01 34 42 50 92</p>
+      </div>
+      <div class="rowcontact">
+        <div class="circle">
+          <img src="/assets/mail.svg" alt="maillogo" class="contactsvg" />
+        </div>
+        <p class="textcontact">etoilegoussainvilloise.fr</p>
+      </div>
+      <div class="rowcontact">
+        <div class="circle">
+          <img src="/assets/loca.svg" alt="localogo" class="contactsvg" />
+        </div>
+        <div class="txtbox">
+          <p class="textcontact">18 rue Etienne Dolet</p>
+          <p class="textcontact">95190 Goussainville</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="footer">
+    <img src="/assets/svgfooter.svg" alt="Gym logo" class="footerlogo" />
+    <p class="txtfooter">ETOILE GOUSSAINVILLOISE</p>
+  </div>
+</Layout>

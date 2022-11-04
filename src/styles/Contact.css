@@ -1,0 +1,77 @@
+.content_contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+body {
+  background: white;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3em;
+  font-size: calc(14px + 0.390625vw);
+  color: #689689;
+  text-align: center;
+}
+
+.hero_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 6%;
+  margin-top: 2rem;
+}
+.rowcontact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.textcontact {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  margin-left: 3%;
+}
+.circle {
+  border-style: solid;
+  border-radius: 50%;
+  padding: 30px;
+}
+.contactsvg {
+  width: 85px;
+  height: 85px;
+}
+.txtbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer {
+  background-color: #27213a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footerlogo {
+  margin-left: 20px;
+}
+.txtfooter {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  letter-spacing: 0.1em;
+  color: #f4e8c1;
+  margin-left: 20px;
+}
