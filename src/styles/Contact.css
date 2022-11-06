@@ -19,9 +19,11 @@ body {
 .hero_contact {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   margin-left: 6%;
   margin-top: 2rem;
+  width: 90%;
+  margin-bottom: 7%;
 }
 .rowcontact {
   display: flex;
@@ -38,6 +40,7 @@ body {
   letter-spacing: 0.1em;
   margin-left: 3%;
 }
+
 .circle {
   border-style: solid;
   border-radius: 50%;
@@ -53,6 +56,58 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+  .textcontact {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    margin-left: 3%;
+  }
+  .circle {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  .contactsvg {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .textcontact {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    margin-left: 3%;
+  }
+  .circle {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  .contactsvg {
+    width: 50px;
+    height: 50px;
+  }
+  .hero_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 6%;
+    margin-top: 2rem;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+}
+@media screen and (max-height: 900px) {
+}
+
 .hero_maap {
   display: flex;
   flex-direction: row;
@@ -61,18 +116,25 @@ body {
 
 .footer {
   background-color: #27213a;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px;
+  padding-top: 20px;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   gap: 20px;
+  width: 100%;
+  height: auto;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .footerlogo {
   margin-left: 20px;
+  max-width: 500px;
 }
 .txtfooter {
   font-family: "Oswald";
