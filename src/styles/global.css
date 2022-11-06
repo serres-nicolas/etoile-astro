@@ -95,3 +95,12 @@ h1 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}

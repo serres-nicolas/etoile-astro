@@ -5,6 +5,7 @@
 }
 body {
   background: white;
+  position: relative;
 }
 
 .title {
