@@ -68,6 +68,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  gap: 20px;
 }
 .footerlogo {
   margin-left: 20px;
