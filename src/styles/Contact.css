@@ -51,6 +51,13 @@ body {
   flex-direction: column;
   width: 100%;
 }
+
+.hero_maap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer {
   background-color: #27213a;
   display: flex;

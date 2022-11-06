@@ -1,6 +1,7 @@
 ---
 // Component Imports
 import Layout from "../layouts/default.astro";
+import Maap from "../components/Maap.astro";
 import "../styles/Contact.css";
 
 // Full Astro Component Syntax:
@@ -12,28 +13,31 @@ import "../styles/Contact.css";
     <div class="title">
       <h1>Nous contacter</h1>
     </div>
-    <div class="hero_contact">
-      <div class="rowcontact">
-        <div class="circle">
-          <img src="/assets/tel.svg" alt="phonelogo" class="contactsvg" />
+    <div class="hero_maap">
+      <div class="hero_contact">
+        <div class="rowcontact">
+          <div class="circle">
+            <img src="/assets/tel.svg" alt="phonelogo" class="contactsvg" />
+          </div>
+          <p class="textcontact">01 34 42 50 92</p>
         </div>
-        <p class="textcontact">01 34 42 50 92</p>
+        <div class="rowcontact">
+          <div class="circle">
+            <img src="/assets/mail.svg" alt="maillogo" class="contactsvg" />
+          </div>
+          <p class="textcontact">etoilegoussainvilloise.fr</p>
+        </div>
+        <div class="rowcontact">
+          <div class="circle">
+            <img src="/assets/loca.svg" alt="localogo" class="contactsvg" />
+          </div>
+          <div class="txtbox">
+            <p class="textcontact">18 rue Etienne Dolet</p>
+            <p class="textcontact">95190 Goussainville</p>
+          </div>
+        </div>
       </div>
-      <div class="rowcontact">
-        <div class="circle">
-          <img src="/assets/mail.svg" alt="maillogo" class="contactsvg" />
-        </div>
-        <p class="textcontact">etoilegoussainvilloise.fr</p>
-      </div>
-      <div class="rowcontact">
-        <div class="circle">
-          <img src="/assets/loca.svg" alt="localogo" class="contactsvg" />
-        </div>
-        <div class="txtbox">
-          <p class="textcontact">18 rue Etienne Dolet</p>
-          <p class="textcontact">95190 Goussainville</p>
-        </div>
-      </div>
+      <Maap />
     </div>
   </main>
   <div class="footer">
