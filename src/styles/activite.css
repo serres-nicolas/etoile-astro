@@ -1,0 +1,79 @@
+body {
+  background: white;
+  position: relative;
+}
+.content {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  gap: 30px;
+  margin-bottom: 1em;
+}
+.content .title_activite {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 64px;
+  color: #689689;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.content .txt_activite {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 2em;
+}
+.wrapped {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.content .hero {
+  display: flex;
+  gap: 15px;
+  width: 80%;
+}
+.content .hero .card1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #cdc7df;
+  border-radius: 16px;
+}
+
+.card_fondu {
+  display: flex;
+  flex-direction: column;
+  color: #f3eede;
+  border-radius: 12px;
+  background: linear-gradient(
+    0.61deg,
+    #000000 0.42%,
+    rgba(39, 33, 58, 0) 99.38%
+  );
+}
+.img_first {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+}
+.title_fondu {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.txt_fondu {
+  margin-bottom: 20px;
+}
+.content .hero .card2 {
+  background-color: #cdc7df;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
