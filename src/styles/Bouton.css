@@ -1,41 +1,44 @@
-.boxdl .dl {
-  letter-spacing: 0.1em;
-  font-size: 23px;
-  color: #aa5042;
-  text-decoration: none;
+.boxdl {
   display: flex;
-  justify-content: space-around;
-  border-radius: 20px;
+}
+
+.boxdl .dl {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  margin-left: 2em;
+  align-items: center;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
   background: #689689;
+  border-radius: 16px;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.45),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 25%;
-  padding: 10px;
-  align-content: center;
-  align-items: center;
-  margin-top: 4em;
-  margin-left: 2em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  gap: 10px;
 }
+
 .boxdl .dl:hover {
-  letter-spacing: 0.1em;
-  font-size: 23px;
-  color: #aa5042;
+  color: #27213a;
   text-decoration: none;
   display: flex;
-  justify-content: space-around;
-  border-radius: 20px;
+  align-items: center;
+  border-radius: 16px;
   background: #ffffff;
   transition: 0.5s;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.45),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 25%;
-  padding: 10px;
+  padding: 10px 20px;
   align-content: center;
   align-items: center;
-  margin-top: 4em;
   margin-left: 2em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+}
+
+.boxdl .dl .actu {
+  color: #27213a;
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 0.1em;
 }

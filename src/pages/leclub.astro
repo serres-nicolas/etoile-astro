@@ -1,7 +1,7 @@
 ---
 // Component Imports
-import Maap from "../components/Maap.astro";
 import Layout from "../layouts/default.astro";
+import Footer from "../components/Footer.jsx";
 import "../styles/leclub.css";
 
 // Full Astro Component Syntax:
@@ -9,6 +9,60 @@ import "../styles/leclub.css";
 ---
 
 <Layout>
-  <div class="home">Page not found, under developpement</div>
-  <Maap />
+  <main class="content">
+    <h1 class="titleclub">le club</h1>
+    <p class="txt">
+      L’Étoile Goussainvilloise est une association Loi 1901, fondée en 1933. et
+      aujourd’hui affiliée à la Fédération Française de Gymnastique.
+    </p>
+    <div class="img_gymnase">
+      <img class="gymnase" src="assets/Rectangle13.png" />
+    </div>
+    <p class="txt">
+      L’association est propriétaire de sa salle spécialisée, elle en assure
+      l’entretien et les réparations. Le club assure l’acquisition et le
+      renouvellement du matériel gymnique.
+    </p>
+    <p class="txt">
+      Sa construction a été faite par les bénévoles de l’époque et interrompue
+      pour cause de guerre, certes les entrainements se poursuivent. Quelques
+      jeunes sur une barre fixe oublient les malheurs de l’époque mais le drame
+      frappe, ALBERT NENEZ un gymnaste se tue. Lors de l’ouverture en 1948, le
+      nom d’ALBERT NENEZ fut donné au gymnase de 250 m2. L’étoile
+      goussainvilloise est propriétaire de sa salle spécialisée, elle en assure
+      l’entretien et les réparations. Le club assure l’acquisition et le
+      renouvellement du matériel gymnique. Cette salle est également à ce jour
+      mise à la disposition de la municipalité de la ville de Goussainville,
+      dans le cadre de la réforme des rythmes scolaires depuis septembre 2016.
+    </p>
+    <div class="hero2">
+      <h1 class="titleclub">l'équipe</h1>
+      <h2 class="sous_titre">Le bureau directeur</h2>
+      <p class="txt2">Composée de 14 membres</p>
+      <h2 class="sous_titre">L'équipe technique</h2>
+    </div>
+    <div class="hero3">
+      <h1 class="titleclub">quelques chiffres</h1>
+      <div class="wrap_hero3">
+        <div class="hero3_column">
+          <div class="hero3_row">
+            <img class="gym_leclub" src="assets/gymnast_svgrepo.png" />
+            <p class="txt3">33 Groupes</p>
+          </div>
+          <div class="hero3_row">
+            <img class="gym_leclub" src="assets/vecteur_groupe.png" />
+            <p class="txt3">433 Adhérents</p>
+          </div>
+          <div class="hero3_row">
+            <img class="gym_leclub" src="assets/hour_svgrepo.png" />
+            <p class="txt3">105h d’entrainement / semaine</p>
+          </div>
+        </div>
+        <div class="hero4_box">
+          <img class="" src="assets/Rectangle14.png" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
 </Layout>
